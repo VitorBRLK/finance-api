@@ -1,0 +1,36 @@
+# Ambiente virtual
+venv/
+.env
+.env.*
+
+# Bytecode e arquivos compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Banco de dados (caso use SQLite localmente)
+*.sqlite3
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Testes
+htmlcov/
+coverage.xml
+.cache/
+pytest_cache/
+.tox/
+
+# Pacotes instalados (caso use pip freeze > requirements.txt)
+*.egg-info/
+dist/
+build/
